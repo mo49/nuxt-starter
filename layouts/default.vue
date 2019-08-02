@@ -48,12 +48,13 @@ body{
 }
 .wrapper{
   animation: cloak-in 1s;
+  overflow: hidden; // IEで右側に余白が生まれる
   &[v-cloak]{
     opacity: 0;
   }
   @include pc-layout{
     width: 100%;
-    min-width: $wrapper_width;
+    min-width: $container_width;
   }
   @include sp-layout{
     width: 100%;
