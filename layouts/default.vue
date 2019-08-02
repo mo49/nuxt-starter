@@ -1,8 +1,21 @@
 <template>
   <div class="wrapper" v-cloak>
-    <nuxt />
+    <CommonHeader />
+    <nuxt/>
+    <CommonFooter />
   </div>
 </template>
+
+<script>
+import CommonHeader from '~/components/organisms/CommonHeader'
+import CommonFooter from '~/components/organisms/CommonFooter'
+export default {
+  components: {
+    CommonHeader,
+    CommonFooter,
+  }
+}
+</script>
 
 <style lang="scss">
 *{
@@ -46,6 +59,7 @@ body{
 @keyframes cloak-in{
   0%{opacity: 0;}
 }
+
 .wrapper{
   animation: cloak-in 1s;
   overflow: hidden; // IEで右側に余白が生まれる
@@ -54,7 +68,17 @@ body{
   }
   @include pc-layout{
     width: 100%;
-    min-width: $container_width;
+    min-width: $section_inner_width;
+  }
+  @include sp-layout{
+    width: 100%;
+  }
+}
+
+.section-inner{
+  margin: 0 auto;
+  @include pc-layout{
+    width: $section_inner_width;
   }
   @include sp-layout{
     width: 100%;
