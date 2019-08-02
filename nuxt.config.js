@@ -65,6 +65,7 @@ export default {
   */
   plugins: [
     '~/plugins/axios',
+    '~/plugins/dayjs',
   ],
   /*
   ** Nuxt.js dev-modules
