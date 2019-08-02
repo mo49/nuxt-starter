@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="wrapper" v-cloak>
     <nuxt />
   </div>
 </template>
@@ -19,5 +19,44 @@ html {
   -webkit-text-size-adjust: 100%;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
+}
+
+body{
+  @include pc-layout{
+    font-size: $base-font-size--pc;
+    line-height: $base-line-height--pc;
+  }
+  @include sp-layout{
+    font-size: $base-font-size--sp;
+    line-height: $base-line-height--sp;
+    // 文字を選択コピーしたいときは外す
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+}
+
+// v-cloak
+[v-cloak]{
+  display: none;
+}
+@keyframes cloak-in{
+  0%{opacity: 0;}
+}
+.wrapper{
+  animation: cloak-in 1s;
+  &[v-cloak]{
+    opacity: 0;
+  }
+  @include pc-layout{
+    width: 100%;
+    min-width: $wrapper_width;
+  }
+  @include sp-layout{
+    width: 100%;
+  }
 }
 </style>
