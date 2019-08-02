@@ -62,6 +62,7 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
+    '~/plugins/axios',
   ],
   /*
   ** Nuxt.js dev-modules
@@ -72,6 +73,7 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
+    '@nuxtjs/axios',
     '@nuxtjs/style-resources',
   ],
   styleResources: {
@@ -96,6 +98,7 @@ export default {
     ** You can extend webpack config here
     */
     extend(config, ctx) {
-    }
+    },
+    vender: ['axios'],
   }
 }

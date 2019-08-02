@@ -11,6 +11,7 @@
     "generate": "nuxt generate --no-lock"
   },
   "dependencies": {
+    "@nuxtjs/axios": "^5.5.4",
     "@nuxtjs/style-resources": "^0.1.2",
     "cross-env": "^5.2.0",
     "node-sass": "^4.12.0",
