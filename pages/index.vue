@@ -1,5 +1,5 @@
 <template>
-  <div data-page="top">
+  <div data-page="top" class="container">
   </div>
 </template>
 

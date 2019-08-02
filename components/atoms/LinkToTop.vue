@@ -1,3 +1,3 @@
 <template>
-  <nuxt-link to="/">トップへ</nuxt-link>
+  <nuxt-link to="/">ホーム</nuxt-link>
 </template>
