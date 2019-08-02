@@ -1,3 +1,5 @@
+import webpack from 'webpack'
+
 const { resolve } = require('path');
 
 const baseName = 'baseName'
@@ -97,6 +99,11 @@ export default {
     /*
     ** You can extend webpack config here
     */
+    plugins: [
+      new webpack.ProvidePlugin({
+        '_': 'lodash'
+      }),
+    ],
     extend(config, ctx) {
     },
     vender: ['axios'],
