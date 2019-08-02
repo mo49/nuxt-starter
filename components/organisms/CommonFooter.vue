@@ -1,6 +1,6 @@
 <template>
   <footer class="footer">
-    <div class="section-inner">
+    <div class="inner">
       <Copyright />
     </div>
   </footer>

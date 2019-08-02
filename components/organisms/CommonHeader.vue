@@ -1,6 +1,6 @@
 <template>
   <header class="header">
-    <div class="section-inner">
+    <div class="inner">
       <LinkToTop class="header__logo" />
     </div>
   </header>

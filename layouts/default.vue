@@ -75,7 +75,7 @@ body{
   }
 }
 
-.section-inner{
+.inner{
   margin: 0 auto;
   @include pc-layout{
     width: $section_inner_width;
