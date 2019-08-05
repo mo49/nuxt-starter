@@ -87,7 +87,7 @@ export default {
   },
 
   router: {
-    base: process.env.NODE_ENV === 'dev' ? '/' : `/${subDir}/`
+    base: process.env.NODE_ENV === 'dev' ? '' : `/${subDir}`
   },
   generate: {
     dir: resolve(__dirname, './dist/' + subDir),
