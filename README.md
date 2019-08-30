@@ -20,3 +20,9 @@ $ yarn generate
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+
+## References
+
+https://gist.github.com/mo49/e26b492c67432bb8dd082caec92fd1e1
+
+https://github.com/browserslist/browserslist#readme
