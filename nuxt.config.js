@@ -78,6 +78,7 @@ export default {
   modules: [
     '@nuxtjs/axios',
     '@nuxtjs/style-resources',
+    'nuxt-user-agent',
   ],
   styleResources: {
     scss: [

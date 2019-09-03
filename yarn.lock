@@ -5218,6 +5218,13 @@ number-is-nan@^1.0.0:
   resolved "https://registry.yarnpkg.com/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
   integrity sha1-CXtgK1NCKlIsGvuHkDGDNpQaAR0=
 
+nuxt-user-agent@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/nuxt-user-agent/-/nuxt-user-agent-1.2.1.tgz#2f38b1c0eb06a505bbcf553188b94c1956a33776"
+  integrity sha512-+uSaw0mCrJTapqVbx1LUGvq2+2lt89TCW6AzpEPn78eDoqlJTclnQRSTn+RXK+SOKzuZZmqHGVDg1tcyUB9eSw==
+  dependencies:
+    woothee "^1.8.1"
+
 nuxt@2.7.0:
   version "2.7.0"
   resolved "https://registry.yarnpkg.com/nuxt/-/nuxt-2.7.0.tgz#9f12434dcaf94090f64a86b88e397f41485fe1b2"
@@ -8066,6 +8073,11 @@ widest-line@^2.0.0:
   integrity sha512-Ba5m9/Fa4Xt9eb2ELXt77JxVDV8w7qQrH0zS/TWSJdLyAwQjWoOzpzj5lwVftDz6n/EOu3tNACS84v509qwnJA==
   dependencies:
     string-width "^2.1.1"
+
+woothee@^1.8.1:
+  version "1.10.1"
+  resolved "https://registry.yarnpkg.com/woothee/-/woothee-1.10.1.tgz#cc38e74969efc9c20083ba93bb5df30b7cd0e9fe"
+  integrity sha512-UjQSKaOyphSqaKR5JqScCUuK3ETW0YXODOBY0Hrr3DcJ765SQ1vEUQrI/rGrbpZ1jKHc3Yx8F89oY0NNmSo33Q==
 
 worker-farm@^1.7.0:
   version "1.7.0"
