@@ -66,6 +66,7 @@ export default {
   plugins: [
     '~/plugins/axios',
     '~/plugins/dayjs',
+    '~/plugins/vue-scrollto',
   ],
   /*
   ** Nuxt.js dev-modules

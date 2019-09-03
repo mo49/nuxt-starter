@@ -27,3 +27,4 @@ https://gist.github.com/mo49/e26b492c67432bb8dd082caec92fd1e1
 
 https://github.com/browserslist/browserslist
 https://github.com/fukuiretu/nuxt-user-agent
+https://www.npmjs.com/package/vue-scrollto
