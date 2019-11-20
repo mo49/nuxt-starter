@@ -1,5 +1,6 @@
 <template>
   <div data-page="top" class="container">
+    <p>isFromTablet : {{isFromTablet}}</p>
   </div>
 </template>
 
@@ -7,5 +8,10 @@
 export default {
   components: {
   },
+  computed: {
+    isFromTablet() {
+      return this.$ua.isFromTablet() || this.$isFromIpad()
+    }
+  }
 }
 </script>

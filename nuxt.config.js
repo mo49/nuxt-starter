@@ -67,6 +67,7 @@ export default {
     '~/plugins/axios',
     '~/plugins/dayjs',
     '~/plugins/vue-scrollto',
+    '~/plugins/isFromIpad',
   ],
   /*
   ** Nuxt.js dev-modules
