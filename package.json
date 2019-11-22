@@ -8,22 +8,28 @@
     "dev": "cross-env HOST=0.0.0.0 PORT=3000 nuxt",
     "build": "nuxt build --no-lock",
     "start": "nuxt start",
-    "generate": "nuxt generate --no-lock"
+    "generate": "nuxt generate --no-lock",
+    "test": "jest"
   },
   "dependencies": {
-    "@nuxtjs/axios": "^5.5.4",
-    "@nuxtjs/style-resources": "^0.1.2",
-    "cross-env": "^5.2.1",
+    "@nuxtjs/axios": "^5.8.0",
+    "@nuxtjs/style-resources": "^1.0.0",
+    "@vue/test-utils": "^1.0.0-beta.29",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^24.9.0",
+    "cross-env": "^6.0.3",
     "dayjs": "^1.8.15",
-    "node-sass": "^4.12.0",
+    "jest": "^24.9.0",
+    "node-sass": "^4.13.0",
     "nuxt": "2.7.0",
     "nuxt-user-agent": "^1.2.1",
-    "reset-css": "^4.0.1",
-    "sass-loader": "^7.1.0",
-    "vue-scrollto": "^2.15.0"
+    "reset-css": "^5.0.1",
+    "sass-loader": "^8.0.0",
+    "vue-jest": "^3.0.5",
+    "vue-scrollto": "^2.17.1"
   },
   "devDependencies": {
-    "nodemon": "^1.18.9"
+    "nodemon": "^2.0.0"
   },
   "browserslist": [
     "last 2 version",
