@@ -81,6 +81,19 @@ export default {
     '@nuxtjs/axios',
     '@nuxtjs/style-resources',
     'nuxt-user-agent',
+    ['nuxt-i18n',
+      {
+        locales: [
+          { code: 'ja', iso: 'ja_JP' },
+          { code: 'en', iso: 'en-US' },
+        ],
+        defaultLocale: 'ja',
+        vueI18n: {
+          fallbackLocale: 'ja',
+        },
+        vueI18nLoader: true
+      }
+    ]
   ],
   styleResources: {
     scss: [
