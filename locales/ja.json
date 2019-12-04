@@ -1,0 +1,16 @@
+{
+  "links": {
+    "home": "ほーむ",
+    "about": "あばうと",
+    "japanese": "日本語バージョン",
+    "english": "英語バージョン"
+  },
+  "home": {
+    "title": "ようこそ",
+    "introduction": "イントロダクション"
+  },
+  "about": {
+    "title": "あばうと",
+    "introduction": "詳細情報"
+  }
+}

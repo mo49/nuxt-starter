@@ -68,6 +68,7 @@ export default {
     '~/plugins/dayjs',
     '~/plugins/vue-scrollto',
     '~/plugins/isFromIpad',
+    '~/plugins/i18n',
   ],
   /*
   ** Nuxt.js dev-modules
@@ -81,19 +82,6 @@ export default {
     '@nuxtjs/axios',
     '@nuxtjs/style-resources',
     'nuxt-user-agent',
-    ['nuxt-i18n',
-      {
-        locales: [
-          { code: 'ja', iso: 'ja_JP' },
-          { code: 'en', iso: 'en-US' },
-        ],
-        defaultLocale: 'ja',
-        vueI18n: {
-          fallbackLocale: 'ja',
-        },
-        vueI18nLoader: true
-      }
-    ]
   ],
   styleResources: {
     scss: [
@@ -103,10 +91,15 @@ export default {
   },
 
   router: {
-    base: process.env.NODE_ENV === 'dev' ? '' : `/${subDir}`
+    base: process.env.NODE_ENV === 'dev' ? '' : `/${subDir}`,
+    middleware: 'i18n'
   },
   generate: {
     dir: resolve(__dirname, './dist/' + subDir),
+    routes: [
+      '/product/1',
+      '/product/2',
+    ]
   },
 
   /*
