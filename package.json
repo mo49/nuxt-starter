@@ -12,25 +12,25 @@
     "test": "jest"
   },
   "dependencies": {
-    "@nuxtjs/axios": "^5.8.0",
+    "@nuxtjs/axios": "^5.9.2",
     "@nuxtjs/style-resources": "^1.0.0",
-    "@vue/test-utils": "^1.0.0-beta.29",
+    "@vue/test-utils": "^1.0.0-beta.30",
     "babel-core": "^7.0.0-bridge.0",
     "babel-jest": "^24.9.0",
     "cross-env": "^6.0.3",
-    "dayjs": "^1.8.15",
+    "dayjs": "^1.8.19",
     "jest": "^24.9.0",
     "node-sass": "^4.13.0",
     "nuxt": "2.7.0",
-    "nuxt-i18n": "^6.4.0",
-    "nuxt-user-agent": "^1.2.1",
+    "nuxt-i18n": "^6.4.1",
+    "nuxt-user-agent": "^1.2.2",
     "reset-css": "^5.0.1",
     "sass-loader": "^8.0.0",
     "vue-jest": "^3.0.5",
     "vue-scrollto": "^2.17.1"
   },
   "devDependencies": {
-    "nodemon": "^2.0.0"
+    "nodemon": "^2.0.2"
   },
   "browserslist": [
     "last 2 version",
