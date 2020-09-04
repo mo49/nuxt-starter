@@ -20,7 +20,7 @@
     "cross-env": "^6.0.3",
     "dayjs": "^1.8.19",
     "jest": "^24.9.0",
-    "node-sass": "^4.13.0",
+    "node-sass": "^4.13.1",
     "nuxt": "2.7.0",
     "nuxt-i18n": "^6.4.1",
     "nuxt-user-agent": "^1.2.2",
